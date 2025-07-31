@@ -10,5 +10,14 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/test-utils',
     '@nuxt/ui'
-  ]
+    ],
+  css: ['~/assets/css/main.css'],        // global CSS file:contentReference[oaicite:11]{index=11} 
+
+   app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/omr.png' }
+      ],
+    }
+  },
 })

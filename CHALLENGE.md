@@ -232,7 +232,7 @@ const createChartConfig = (chartDataObject) => {
       datasets: [{
         label: 'Mentions',
         data: chartDataObject.values,
-        backgroundColor: 'rgba(54, 162, 235, 0.8)'
+        backgroundColor: 'rgba(229, 54, 235, 0.8)'
       }]
     },
     options: {
